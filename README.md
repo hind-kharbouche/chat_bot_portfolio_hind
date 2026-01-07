@@ -21,7 +21,8 @@ Pour réaliser le projet, vous allez avoir besoin d’un index pour stocker vos 
 
 ## OpenAI
 
-Je vous transmettrais la clé API via UPdago
+Je vous transmettrais la clé API via UPdago. 
+**Note :** Seul le modèle `gpt-4.1-nano` est accessible avec cette clé.
 
 ## Tests
 
@@ -29,7 +30,6 @@ Avant de commencer le projet, nous allons vérifier que tout fonctionne bien (pa
 * Créer un `.venv` et installer les packages du fichier requirements via la commande : `pip install -r requirements.txt`
 * Créer un fichier `.env` et copier les variables du fichier `.env.example` dans le fichier `.env` puis compléter les valeurs des variables
 * Ouvrir un terminal et lancer les tests via la commande : `pytest -s`
-
 
 ## À vous de jouer !
 
@@ -57,3 +57,18 @@ Ajoutez une **Tool** (fonction) à votre agent pour lui permettre d'interroger v
 ### 6. Interface Utilisateur (Streamlit)
 Créez une interface de chat pour permettre aux utilisateurs d'interagir avec votre agent.
 * [Tutoriel : Créer une application de chat avec Streamlit](https://docs.streamlit.io/develop/tutorials/chat-and-llm-apps/build-conversational-apps)
+
+### 7. Déploiement sur Streamlit Cloud
+Une fois votre application fonctionnelle, déployez là sur Streamlit Cloud.
+* [Documentation : Déployer votre application sur Streamlit Community Cloud](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy)
+
+## Pour aller plus loin (Bonus)
+
+Si vous avez terminé les étapes précédentes et souhaitez enrichir votre projet :
+* **Sauvegarder les conversations** : Utilisez [Upstash Redis](https://upstash.com/docs/redis/overall/getstarted) pour mémoriser l'historique des échanges entre l'utilisateur et l'agent.
+* **Ajouter des nouveaux tools** : Permettez à votre agent d'effectuer d'autres actions (ajout de tools).
+
+## Notes Importantes
+
+* **Streamlit & HTML** : Ne pas insérer de code HTML via Streamlit. Utilisez exclusivement les composants natifs de Streamlit, qui sont largement suffisants pour ce projet. Vous pouvez consulter la liste ici : [API Reference - Streamlit](https://docs.streamlit.io/develop/api-reference).
+* **Clé API OpenAI** : La clé API fournie sera désactivée une fois la correction des projets terminée. Pour continuer à utiliser votre application par la suite, vous devrez utiliser votre propre clé API (il faudra alors créditer son compte [OpenAI](https://openai.com/api/), 10€ devrait être suffisant pendant un moment !).
