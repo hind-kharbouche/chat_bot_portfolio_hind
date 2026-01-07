@@ -5,7 +5,7 @@ Pour la réalisation de ce projet, vous pouvez utiliser l’IDE de votre choix (
 ## Création de la base de données vectorielle
 
 Pour réaliser le projet, vous allez avoir besoin d’un index pour stocker vos informations :
-* Créer un compte [Signup - Upstash](https://console.upstash.com/signup)
+* Créer un compte [Signup - Upstash](https://console.upstash.com/auth/sign-up)
 * Aller dans l’outil « **Vector** »
 * Créer un « **Vector Index** »
 * Configurer l’index : 
