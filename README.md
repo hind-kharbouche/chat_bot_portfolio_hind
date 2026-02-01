@@ -7,9 +7,9 @@
 
 ---
 
-## 🚀 Application en ligne
+**Application en ligne**
 
-**[▶️ Accéder au chatbot portfolio](https://chatbotportfoliohind-rvggbq3tabgkbgp6kkhtsw.streamlit.app)**
+**[▶Accéder au chatbot portfolio](https://chatbotportfoliohind-rvggbq3tabgkbgp6kkhtsw.streamlit.app)**
 
 Posez vos questions sur mon parcours, mes compétences et mes projets directement à l'IA !
 
