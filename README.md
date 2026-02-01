@@ -1,7 +1,6 @@
 # RAPPORT DE PROJET
 
-**Auteur** : Hind KHARBOUCHE  
-**Formation** : BUT 3 Science des Données - IUT de Niort  
+**Auteur** : Hind KHARBOUCHE   
 **Année universitaire** : 2025-2026  
 **Projet** : Chatbot Portfolio basé sur RAG (Retrieval Augmented Generation)
 
