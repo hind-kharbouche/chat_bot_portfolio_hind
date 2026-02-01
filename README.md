@@ -3,7 +3,17 @@
 **Auteur** : Hind KHARBOUCHE  
 **Formation** : BUT 3 Science des Données - IUT de Niort  
 **Année universitaire** : 2025-2026  
-**Projet** : Chatbot Portfolio basé sur RAG (Retrieval Augmented Generation)  
+**Projet** : Chatbot Portfolio basé sur RAG (Retrieval Augmented Generation)
+
+---
+
+## 🚀 Application en ligne
+
+**[▶️ Accéder au chatbot portfolio](https://chatbotportfoliohind-rvggbq3tabgkbgp6kkhtsw.streamlit.app)**
+
+Posez vos questions sur mon parcours, mes compétences et mes projets directement à l'IA !
+
+---  
 
 
 ## SOMMAIRE
