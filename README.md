@@ -63,6 +63,7 @@ L'architecture RAG (Retrieval Augmented Generation) se décompose en deux phases
 
 Cette phase est exécutée une seule fois lors de la préparation des données :
 
+```
 ┌─────────────────────────┐
 │ Fichiers Markdown (.md) │
 │ - formation.md          │
@@ -90,6 +91,7 @@ Cette phase est exécutée une seule fois lors de la préparation des données :
 │ Stockage Upstash Vector │
 │ + métadonnées           │
 └─────────────────────────┘
+```
 
 **Stratégie de chunking** : Le découpage se fait intelligemment à chaque titre Markdown (`#` ou `##`), ce qui permet de conserver la cohérence sémantique de chaque section. Chaque chunk est enrichi de métadonnées (nom du fichier source, index, titre de la section).
 
@@ -97,6 +99,7 @@ Cette phase est exécutée une seule fois lors de la préparation des données :
 
 Cette phase s'exécute à chaque question de l'utilisateur :
 
+```
 ┌─────────────────────────┐
 │ Question utilisateur    │
 └───────────┬─────────────┘
@@ -130,6 +133,7 @@ Cette phase s'exécute à chaque question de l'utilisateur :
 │ Affichage réponse       │
 │ (interface Streamlit)   │
 └─────────────────────────┘
+```
 
 ## 2.3 Structure des données
 
@@ -150,6 +154,7 @@ Cette organisation permet une maintenance facile et une évolutivité du contenu
 
 ## 3.1 Architecture du code
 
+```
 projet-iut-potfolio/
 ├── data/                    # Données du portfolio 
 │   ├── formation.md
@@ -169,6 +174,7 @@ projet-iut-potfolio/
 ├── requirements.txt         # Dépendances
 ├── .env                     # Variables d'environnement
 └── .env.example             # Template de configuration
+```
 
 ## 3.2 Modules principaux
 
